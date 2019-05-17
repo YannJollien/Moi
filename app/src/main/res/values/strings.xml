@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Moi</string>
+
+    <string-array name="moods_array">
+        <item>Mauvais</item>
+        <item>Moyen</item>
+        <item>Bien</item>
+        <item>Très Bien</item>
+    </string-array>
+
 </resources>

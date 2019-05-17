@@ -5,11 +5,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".ui.perturb.Activity_Add_Perturb"
+    tools:context=".ui.perturb.mood.Activity_Add_Mood"
     android:background="@drawable/background">
 
     <android.support.v7.widget.Toolbar
-        android:id="@+id/perturb_toolbar"
+        android:id="@+id/mood_toolbar"
         android:layout_width="match_parent"
         android:layout_height="?attr/actionBarSize"
         android:background="#6fc6fc"
@@ -26,19 +26,19 @@
         android:layout_height="wrap_content"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
-        android:text="Quoi"
+        android:text="Mood"
         android:layout_marginTop="10dp"
         android:layout_marginBottom="10dp"
         android:textColor="#ffff"
-        android:textSize="20dp" />
+        android:textSize="20dp"/>
 
-    <EditText
-        android:id="@+id/add_title"
+    <Spinner
+        android:id="@+id/add_mood"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="10dp"
-        android:hint="Title"
+        android:hint="Mood"
         android:inputType="text"/>
 
     <TextView
@@ -59,7 +59,7 @@
         android:orientation="horizontal">
 
         <EditText
-            android:id="@+id/add_date"
+            android:id="@+id/add_date_mood"
             android:layout_width="334dp"
             android:layout_height="wrap_content"
             android:layout_marginLeft="10dp"
@@ -72,11 +72,7 @@
             android:layout_width="47dp"
             android:layout_height="wrap_content"
             android:background="@drawable/ic_date_range_white_24dp" />
-
-
     </LinearLayout>
-
-
 
     <TextView
         android:layout_width="match_parent"
@@ -90,11 +86,11 @@
         android:textSize="20dp"/>
 
     <EditText
-        android:id="@+id/add_text"
+        android:id="@+id/add_text_mood"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="10dp"
-        android:layout_marginRight="10dp"
+        android:layout_marginRight="15dp"
         android:hint="Text"
         android:inputType="text"/>
 
